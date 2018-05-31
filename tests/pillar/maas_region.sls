@@ -22,3 +22,6 @@ maas:
       username: maas
     enabled: true
     salt_master_ip: 127.0.0.1
+    timeout:
+      deployed: 900
+      ready: 900
